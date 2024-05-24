@@ -1,0 +1,114 @@
+
+body {
+background-color: #96caa7;
+color: rgb(25, 192, 19);
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+header {
+    background-color: #13cf5b;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    padding: 20px;
+}
+    
+section {
+    padding: 20px; /* espaciado para la sección de 20 pixeles */
+}
+footer {
+    text-align: center; 
+    background-color: #13cf5b; /* Color de fondo del footer */
+    color: rgb(17, 14, 14);
+    padding: 20px 0; 
+}
+.footer-content {
+    max-width: 800px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+    text-align: center; 
+}
+
+.formato {
+    color: rgb(14, 13, 13);
+    text-align: center;     /* Centra el texto */
+    font-weight: bold;      /* Aplica negrita */
+    font-style: italic;     /* Aplica cursiva */
+  }
+
+  /* Estilos para el nav y enlaces de ul y li */
+nav {
+    background-color: #13cf5b;
+    padding: 10px;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+    nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background-color: #2f8247;
+}
+
+nav ul li a {
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Añade una transición suave */
+  }
+  nav ul li a:hover {
+    background-color: #2f8247;
+    color: #d4f1d4; /* Cambia el color del texto al pasar el mouse */
+  }
+
+/* Regla para que el nav abarque todo el ancho de la pantalla */
+header nav {
+    width: 100%;
+}
+  /* Estilos para las imágenes */
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 100px; /* Ajusta el tamaño del logo */
+    height: auto;
+  }
+.img-estilizada {
+    display: block;
+    margin: 20px auto;
+    width: 80%; /* Ajusta el ancho de la imagen */
+    max-width: 200px; /* Establece un ancho máximo */
+    height: auto;
+    border: 2px solid #4caf50; /* Borde de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra alrededor de la imagen */
+  }
+
+footer .social-media {
+    margin-bottom: 10px;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .social-media img {
+    vertical-align: middle;
+}
+
+footer p {
+    margin: 0;
+}
